@@ -23,9 +23,7 @@ export default class Preview extends React.Component {
         <button id="preview-toggle" onClick={this.showPreview.bind(this)}>
           Show Preview
         </button>
-        <ToggleDisplay show={this.state.show} tag="section" id="application-preview">
-          Test
-        </ToggleDisplay>
+        <ToggleDisplay show={this.state.show} tag="section" id="application-preview" />
       </div>
     );
   }
