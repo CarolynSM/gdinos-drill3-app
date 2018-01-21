@@ -12,6 +12,7 @@ export default class Form extends React.Component {
     this.setState({
       show: !this.state.show
     });
+    document.querySelector("#application-input").reset();
   }
 
   render() {
