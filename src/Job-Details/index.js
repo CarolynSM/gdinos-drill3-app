@@ -5,8 +5,8 @@ export default class Details extends React.Component {
     return (
       <section id="job-details">
         <h2>Job Details</h2>
-        <h4>Demolitions Manager</h4>
-        <p>Please destroy things for us.</p>
+        <h4>{this.props.job.title}</h4>
+        <p>{this.props.job.description}</p>
       </section>
     );
   }
